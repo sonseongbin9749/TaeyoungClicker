@@ -1,0 +1,51 @@
+﻿{
+    "Name": "SEXYBIN",
+    "ggyul": 5171808,
+    "donate": 0,
+    "ePc": 25166,
+    "taeyounglist": [
+        {
+            "ListNumber": 0,
+            "ListName": "국민                                               (+50)",
+            "amount": 42,
+            "ePs": 30,
+            "price": 96401,
+            "basicPrice": 10,
+            "ePc": 50
+        },
+        {
+            "ListNumber": 1,
+            "ListName": "마을                                               (+1000)",
+            "amount": 23,
+            "ePs": 500,
+            "price": 169252,
+            "basicPrice": 1000,
+            "ePc": 1000
+        },
+        {
+            "ListNumber": 2,
+            "ListName": "나라                                               (+100000)",
+            "amount": 0,
+            "ePs": 50000,
+            "price": 10000000,
+            "basicPrice": 10000000,
+            "ePc": 100000
+        },
+        {
+            "ListNumber": 3,
+            "ListName": "행성                                              (+100000000)",
+            "amount": 0,
+            "ePs": 5000000,
+            "price": 10000000000,
+            "basicPrice": 10000000000,
+            "ePc": 100000000
+        }
+    ],
+    "isChallenge": [
+        true,
+        true,
+        false,
+        false
+    ],
+    "istuto": true
+}

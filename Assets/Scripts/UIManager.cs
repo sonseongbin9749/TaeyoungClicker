@@ -9,8 +9,6 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private Text donateText = null;
     [SerializeField]
-    private Animator beakerAnimator = null;
-    [SerializeField]
     private GameObject upgradePanelTemplate = null;
     [SerializeField]
     private Energytext energytextTemplate = null;
@@ -52,7 +50,6 @@ public class UIManager : MonoBehaviour
             Debug.Log("보석!");
             GameManager.Instance.CurrentUser.donate++;
             UpdateEnergyPanel();
-            beakerAnimator.Play("Dance");
             DonateText newText = null;
             newText = Instantiate(donateTextTemplate, donateTextTemplate.transform.parent);
             newText.Show(Input.mousePosition);
@@ -61,7 +58,6 @@ public class UIManager : MonoBehaviour
         {
             GameManager.Instance.CurrentUser.ggyul += GameManager.Instance.CurrentUser.ePc;
             UpdateEnergyPanel();
-            beakerAnimator.Play("Dance");
             //클릭 풀링 설정
             Energytext newText = null;
 
@@ -80,7 +76,6 @@ public class UIManager : MonoBehaviour
     {
         GameManager.Instance.CurrentUser.ggyul += GameManager.Instance.CurrentUser.ePc * GameManager.Instance.Boost;
         UpdateEnergyPanel();
-        beakerAnimator.Play("Dance");
         //클릭 풀링 설정
         Energytext newText = null;
 

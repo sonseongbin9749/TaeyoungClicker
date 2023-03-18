@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 176b543b31cbc03459c8063a985ebbd1
+guid: 4135796058cbfb648888547aa02b097e
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -2256599991203281371
-    second: "\uC81C\uBAA9 \uC5C6\uC74C-1_0"
-  - first:
-      213: 1882935243438231651
-    second: "\uC81C\uBAA9 \uC5C6\uC74C-1_1"
-  - first:
-      213: -2191780441370642326
-    second: "\uC81C\uBAA9 \uC5C6\uC74C-1_2"
-  - first:
-      213: -8087661623911210128
-    second: "\uC81C\uBAA9 \uC5C6\uC74C-1_3"
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -54,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -102,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -127,91 +115,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: "\uC81C\uBAA9 \uC5C6\uC74C-1_0"
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 526cd249342fea0e0800000000000000
-      internalID: -2256599991203281371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uC81C\uBAA9 \uC5C6\uC74C-1_1"
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 1000
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3601330b0a7812a10800000000000000
-      internalID: 1882935243438231651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uC81C\uBAA9 \uC5C6\uC74C-1_2"
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6834761d4b3591e0800000000000000
-      internalID: -2191780441370642326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\uC81C\uBAA9 \uC5C6\uC74C-1_3"
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 1000
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 073a6337a9ad2cf80800000000000000
-      internalID: -8087661623911210128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -222,11 +126,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "\uC81C\uBAA9 \uC5C6\uC74C-1_3": -8087661623911210128
-      "\uC81C\uBAA9 \uC5C6\uC74C-1_2": -2191780441370642326
-      "\uC81C\uBAA9 \uC5C6\uC74C-1_0": -2256599991203281371
-      "\uC81C\uBAA9 \uC5C6\uC74C-1_1": 1882935243438231651
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

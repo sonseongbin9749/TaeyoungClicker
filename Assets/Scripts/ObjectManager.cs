@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ObjectManager : MonoBehaviour
 {
 
-    [SerializeField] private GameObject[] pannel;
+    public GameObject[] pannel;
     //[SerializeField]
     //private GameObject pannel1;
     [SerializeField] private bool[] isClick;
